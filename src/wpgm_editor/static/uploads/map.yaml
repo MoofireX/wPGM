@@ -1,9 +1,0 @@
-image: 2025-10-25-long_occupancy.pgm
-resolution: 0.1
-origin:
-- -38.93410110473633
-- -71.16642761230469
-- 0.0
-negate: 0
-occupied_thresh: 0.65
-free_thresh: 0.196
