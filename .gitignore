@@ -1,0 +1,30 @@
+# Bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv
+venv
+env
+virtualenv/
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor directories
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
