@@ -1,0 +1,2 @@
+graft src/wpgm_editor/templates
+graft src/wpgm_editor/static

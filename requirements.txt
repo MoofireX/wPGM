@@ -1,0 +1,5 @@
+Flask
+PyYAML
+numpy
+matplotlib
+opencv-python-headless
