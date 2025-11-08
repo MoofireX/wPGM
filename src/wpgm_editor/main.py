@@ -16,8 +16,6 @@ from flask import Flask, render_template, request, send_file
 
 # --- App Setup ---
 app = Flask(__name__)
-port = int(os.environ.get("PORT", 8080))
-uvicorn.run(app, host="0.0.0.0", port=port)
 
 # Create a temporary directory for file uploads that will be cleaned up on exit
 temp_dir = tempfile.mkdtemp()
@@ -136,8 +134,7 @@ def export_csv():
 # --- Main execution ---
 def main():
     print("Starting wPGM Editor...")
-    print("Navigate to http://127.0.0.1:5000 in your web browser.")
-    app.run(host='127.0.0.1', port=5000, debug=False)
+    app.run(host='0.0.0.0', port=8080, debug=False)
 
 if __name__ == '__main__':
     main()
